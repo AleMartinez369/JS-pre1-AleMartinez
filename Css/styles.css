@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    box-sizing: border-box;
+}
+
+
+
+.body{
+    background-color: rgb(27, 26, 26);
+}
+
+.logoprincipal{
+    display: flex;
+    /*flex-direction: column;
+    align-items: center;*/
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.logoprincipal img{
+    width: 265px;
+    height: 265px;
+}
+
+.vivar{
+    color: white;
+    display: block;
+    margin-top: 130px;
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+
+.v1{
+    margin-right: 70px;
+}
+
+.v2{
+    margin-left: 70px;
+}
+
+
+.container{
+    position: relative;
+   /* display: inline-block;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+.container img{
+    width: 85%;
+    height: 220px;
+    
+}
+
+  .texto {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(23, 219, 245);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(53, 56, 56, 0.582);
+    /*background-color: rgba(28, 238, 253, 0.582);*/
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+
+.Paquetes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.Etiqueta{
+    background-color: rgba(17, 219, 255, 0.527);
+    width: 300px;
+    height: 450px;
+    border: solid 2px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ciudad{ 
+    color: white;
+    margin-top: 10px;
+}
+
+.Etiqueta p{
+    color: white;
+    border: solid 0.5px #0000001a;
+    border-radius: 3px;
+    width: 90%;
+    height: 150px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.Etiqueta img{
+    width: 90%;
+    height: 150px;    
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.Etiqueta button{
+    color: white;
+    font-size: medium;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: rgb(107, 199, 199);
+    width: 170px;
+    height: 40px;
+}
+
+.info{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: italic;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario{
+    width: 768px;
+    font-size: 20px;
+    margin: 30px auto;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(97, 215, 245, 0.281);
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 10px;
+    
+}
+
+.formulario input{
+    width: 360px;
+    background-color: #eee6e6;
+    border: none;
+    border-bottom: 2px solid #faf3f3;
+    color: black;
+}
+
+.formulario input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.632);
+    color: black;
+}
+
+.formulario .in-Mensaje{
+    grid-column: 2 span;
+    text-align: start;
+}
+
+.ingreseMensaje{
+    width: 720px;
+    height: 200px;
+}
+
+.formulario .in-Terminos{
+    grid-column: 2 span;
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
